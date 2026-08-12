@@ -26,6 +26,11 @@ vnets = {
     location            = "centralus"
     address_space       = ["10.0.0.0/16"]
   }
+  vnet2 = {
+    name                = "dev_vnet"
+    resource_group_name = "sumrg2"
+    location            = "centralus"
+    address_space       = ["10.1.0.0/16"]
 }
 
 subnets = {
