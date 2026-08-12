@@ -4,7 +4,10 @@ rgs = {
     location = "centralus"
   }
 
-  
+  rg2 = {
+    name     = "sumrg2"
+    location = "centralus"
+  }
 }
 
 sds = {
